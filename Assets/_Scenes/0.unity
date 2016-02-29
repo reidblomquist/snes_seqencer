@@ -2107,8 +2107,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11489634, guid: 7a9b3a34a57dfbc4293a2c8c739c98f7, type: 2}
       propertyPath: log
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11489634, guid: 7a9b3a34a57dfbc4293a2c8c739c98f7, type: 2}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 50719f657a9375344af754b46b234b46, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a9b3a34a57dfbc4293a2c8c739c98f7, type: 2}
   m_IsPrefabParent: 0
