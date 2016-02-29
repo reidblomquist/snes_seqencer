@@ -492,7 +492,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1125972383}
   serializedVersion: 2
-  lengthInSec: 1
+  lengthInSec: 0.2
   startDelay:
     scalar: 0
     maxCurve:
@@ -532,7 +532,7 @@ ParticleSystem:
   randomSeed: 0
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   moveWithTransform: 1
   scalingMode: 1
   InitialModule:
@@ -2041,6 +2041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037de297ce44536448ff2d6f0df84445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animateTarget: {fileID: 1125972383}
 --- !u!1001 &2136155698
 Prefab:
   m_ObjectHideFlags: 0
@@ -2103,6 +2104,10 @@ Prefab:
     - target: {fileID: 8259030, guid: 7a9b3a34a57dfbc4293a2c8c739c98f7, type: 2}
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489634, guid: 7a9b3a34a57dfbc4293a2c8c739c98f7, type: 2}
+      propertyPath: log
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a9b3a34a57dfbc4293a2c8c739c98f7, type: 2}
