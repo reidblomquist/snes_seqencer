@@ -110,7 +110,7 @@ internal class Sequencer : SequencerBase
     /// <summary>
     /// Current step.
     /// </summary>
-    private int _currentStep;
+    public int _currentStep;
     /// <summary>
     /// Time of next tick.
     /// </summary>
@@ -134,7 +134,7 @@ internal class Sequencer : SequencerBase
     /// <summary>
     /// Remaining beat events to be fired.
     /// </summary>
-    private int _fireBeatEvent;
+    public int _fireBeatEvent;
     /// <summary>
     /// Remaining any step events to be fired.
     /// </summary>
